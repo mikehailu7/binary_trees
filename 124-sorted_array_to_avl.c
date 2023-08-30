@@ -1,4 +1,6 @@
 #include "binary_trees.h"
+avl_t *sorted_array_to_avl(int *array, size_t size);
+avl_t *aux_sort(avl_t *parent, int *array, int begin, int last);
 /**
  * sorted_array_to_avl: This funciton will create a alv tree from sorted array
  * @array: This represent the sorted array
@@ -39,4 +41,3 @@ avl_t *aux_sort(avl_t *parent, int *array, int begin, int last)
     }
     return (NULL);
 }
-`
