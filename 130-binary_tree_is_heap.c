@@ -1,5 +1,6 @@
 #include "binary_trees.h"
 #include "102-binary_tree_is_complete.c"
+int check_max(const binary_tree_t *tree);
 /**
  * binary_tree_is_heap - function used to check  binary tree is heap
  * @tree: used to store the tree
@@ -12,7 +13,7 @@ int binary_tree_is_heap(const binary_tree_t *tree)
         if (!tree)
                 return (0);
 
-        tmp = binary_tree_is_complete(tree);
+        t = binary_tree_is_complete(tree);
         if (!t)
                 return (0);
         return (check_max(tree));
