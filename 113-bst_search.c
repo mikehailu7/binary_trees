@@ -1,7 +1,8 @@
 #include "binary_trees.h"
 /**
- * bst_search - function used to search on a binary tree
+ * bst_search - This function used to search on a binary tree
  * @tree: used to store the tree
+ * Author: Mikias Hailu and yared Tsgie
  * @value: used to store the value
  * Return: success
  */

@@ -3,6 +3,7 @@
  * bst_insert - function used to store a value to abinary tree
  * @tree: used to store the binary tree
  * @value: used to store the value
+ * Author: Mikias Hailu and Yared Tsgie
  * Return:a pointer if success and null if failer
  */
 bst_t *bst_insert(bst_t **tree, int value)

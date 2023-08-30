@@ -2,6 +2,7 @@
 /**
  * binary_tree_rotate_right - function used to rotate to the right
  * @tree: used to store the tree
+ * author: MIkias Hailu and Yared Tsgie
  * return: sucess
  */
 binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree)

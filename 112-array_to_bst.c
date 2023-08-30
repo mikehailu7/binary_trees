@@ -2,6 +2,7 @@
 /**
  * array_to_bst - function used to build atree
  * @array: used to store the array
+ * Author: Mikias Hailu and Yared Tsgie
  * @size: used to store the size of the array
  * Return: success
  */

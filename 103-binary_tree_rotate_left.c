@@ -2,6 +2,7 @@
 /**
  * binary_tree_rotate_left - function used to rotate teee to the left
  * @tree:used to store the node
+ * Author: Mikias hailu and yared Tsgie
  * Return: pivot if succesful
  */
 binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree)
