@@ -1,8 +1,8 @@
 #include "binary_trees.h"
-
 /**
  * heap_insert - function used to insert a heap
  * @root: used to store the root
+ * Author: Mikias Hailu and Yared Tsgie
  * @value: used to store the value
  * Return: 1 success 0 fail
  */
@@ -40,9 +40,10 @@ heap_t *heap_insert(heap_t **root, int value)
 }
 
 /**
- * binary_tree_size - function used to measure the size of the tree
- * @tree: used to store the tree
- * Return: 1 success and 0 failer
+ * binary_tree_size - This function used to measure the size of the tree
+ * Author: Mikias Hailu and Yared Tsgie
+ * @tree: This is used to store the tree
+ * Return: THis will return 1 success and 0 failer
  */
 size_t binary_tree_size(const binary_tree_t *tree)
 {

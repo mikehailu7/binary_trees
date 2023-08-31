@@ -4,6 +4,7 @@ int check_max(const binary_tree_t *tree);
 /**
  * binary_tree_is_heap - function used to check  binary tree is heap
  * @tree: used to store the tree
+ * Author: MIkias Hailu and Yared tsgie
  * Return: 1 success 0 otherwise
  **/
 int binary_tree_is_heap(const binary_tree_t *tree)
@@ -20,7 +21,8 @@ int binary_tree_is_heap(const binary_tree_t *tree)
 }
 
 /**
- * check_max - function used to check whether max or not
+ * check_max - This function is used to check whether max or not
+ * Author: Mikias Hailu and yared Tsgie
  * @tree: used to store the tree
  * Return: 1 success 0 failer
  **/
